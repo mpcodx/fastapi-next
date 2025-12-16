@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,body { @apply bg-gray-50 text-gray-800; }
+* { box-sizing: border-box }
+a { @apply text-blue-600 hover:text-blue-800 }
+
+.container { @apply mx-auto max-w-3xl p-6 }
+.btn { @apply bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 }
+.btn-danger { @apply bg-red-600 text-white px-4 py-2 rounded hover:bg-red-700 }
